@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<body>
+    <style>
+        *{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: black;
+}
+.links ul h3{
+    color: red;
+    padding-right: 800px;
+    font-size: 30px;
+}
+.links ul h3 span{
+color: white;
+}
+.links ul {
+    display: flex;
+    gap: 75px;
+    justify-content: right;
+    background-color: black;  
+    padding: 0.5vh;
+    position: sticky;
+    padding-right: 5px;
+}
+nav .links ul a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.links a:hover{
+    text-decoration: underline red 2px;
+    text-underline-position: under;
+    transition: .1s ease-in-out;
+}
+main .intro span{
+    color: red;
+}
+main{
+    width: 100%;
+    height:95vh;
+    color: white;
+    background-color: black;
+    align-items: center;
+    display: flex;
+}
+main img{
+width: 500px;
+padding-left: 400px;
+padding-top: 75px;
+
+}
+main .intro .txt{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+main .intro textarea{
+    padding: 15px;
+}
+main .intro .txt button{
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+    </style>
+    <nav>
+        <div class="links">
+
+            <ul>    
+                <h3><span>yodin</span>.</h3>
+                <a href="index.html">Home</a>
+                <a href="contactMe.html">Contact Me</a>
+                <a href="aboutme.html">About Me</a>
+                <a href="#">Learn More</a>
+            </ul>
+        </div>
+    </nav>
+    <main>
+       <div class="intro">
+        <div class="txt"><textarea cols="80" rows="20" placeholder="Enter your Message here."></textarea>
+        <br> 
+    <button>SEND</button>
+        </div>
+    
+       </div> 
+       <img src="pic.jpg" alt="pic">
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

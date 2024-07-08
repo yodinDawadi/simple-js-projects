@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.nav{
+    background-color: black;
+    color: white;
+    justify-content: right;
+    height: 10vh;
+    display: flex;
+    text-decoration: none;
+    position:sticky;
+}
+.nav p{
+    color: red;
+    padding-right: 930px;
+    font-size: 30px;
+}
+.nav p span{
+    color: white;
+}
+.nav ul{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px;
+}
+.nav ul a{
+    text-decoration: none;
+    color: white;
+}
+.texts{
+    height: 85vh;
+    background-color: black;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.picture{
+    height: 85vh;
+    background-color: black;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .texts .container2 p{
+   padding-bottom: 50px;
+   padding-left: 40px;
+    font-size: 40px;
+    color: red;
+}
+.main{
+    display: flex;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding-right: 50px;
+}
+.picture img{
+    width: 400px;
+}
+.nav ul a:hover{
+    text-decoration: underline red;
+    text-underline-position: under;
+    color: white;
+    transition: 1s;
+}
+.footer .fa-facebook{
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
+.footer .fa-instagram{
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
+.footer .fa-github{
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
+.footer p{
+    font-size: 15px;
+}
+.container2{
+    padding: 150px 70px ;
+    border: 2px solid white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.container2 .btn{
+background-color: red;
+color: white;
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 20px;
+cursor: pointer;
+}

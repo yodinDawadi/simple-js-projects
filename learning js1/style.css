@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0; 
+}
+img{
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+    
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 10%);
+    
+    color: white;
+}
+#card{
+   /* overflow: hidden; */
+   height: 400px;
+   width: 500px;
+   animation: text 3s 1;
+   position: absolute;
+}
+img:hover{
+    filter: brightness(20%);
+    transition: 0.3s;
+}
+h1{
+    text-align: center;
+    
+}
+@keyframes text{
+    0%{
+        margin-bottom: -40px;
+    }
+    30%{
+        margin-bottom: -40px;
+    }
+
+}
